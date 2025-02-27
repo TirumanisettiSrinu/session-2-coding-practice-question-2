@@ -1,0 +1,50 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    flex-direction: column;
+  }
+  
+  .Heading {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .notification {
+    width: 60vw;
+    padding: 15px;
+    border-radius: 5px;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .icon {
+    width: 25px;
+    height: 25px;
+  }
+  
+  .Information-Message {
+    background-color: #0b69ff;
+  }
+  
+  .Success-Message {
+    background-color: #2dca73;
+  }
+  
+  .Warning-Message {
+    background-color: #ffb800;
+  }
+  
+  .Error-Message {
+    background-color: #ff0b37;
+  }
+  
